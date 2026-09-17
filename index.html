@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" class="music-button" onclick="toggleMusic()">
+    🎵
+</button>
+
+    <div class="container">
+
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
+        <div class="welcome-card">
+
+            <div class="small-text">
+                A little surprise for you...
+            </div>
+
+            <h1>
+                Happy  Birthday ! 🎂
+            </h1>
+
+            <p>
+                Today is not just another day.
+                It's your special day.
+            </p>
+
+            <p class="message">
+                So I made something small for you.
+                Ready for the surprise?
+            </p>
+
+            <button onclick="startSurprise()">
+                Start the Surprise →
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
